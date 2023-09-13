@@ -18,7 +18,7 @@ function App() {
   ]
 
   return (
-    <CardList >
+    <CardList title={'Lists'}>
       {cards.map((card, i) =>
         <Card card={card} key={i}/>
       )}
